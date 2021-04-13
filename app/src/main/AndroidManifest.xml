@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prototypeappnonfunctional">
         <activity
+            android:name=".ui.testActivity"
+            android:label="Your Orders"></activity>
+        <activity
             android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_login" />
         <activity
             android:name=".CartActivity"
-            android:label="@string/title_activity_cart"/>
-        <activity
-            android:name=".PageActivity" />
+            android:label="@string/title_activity_cart" />
+        <activity android:name=".PageActivity" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/Theme.Prototypeappnonfunctional.NoActionBar">

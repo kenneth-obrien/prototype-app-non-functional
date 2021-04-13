@@ -8,7 +8,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="409dp"
-        android:layout_height="90dp"
+        android:layout_height="150dp"
         android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,8 +28,8 @@
                 android:layout_marginStart="34dp"
                 android:layout_marginLeft="34dp"
                 android:layout_marginTop="27dp"
-                android:textColor="#000000"
                 android:text="Total "
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <TextView
@@ -42,8 +42,8 @@
                 android:layout_marginStart="110dp"
                 android:layout_marginLeft="110dp"
                 android:layout_marginTop="26dp"
-                android:textColor="#000000"
                 android:text="£6.50"
+                android:textColor="#000000"
                 android:textSize="24sp" />
 
             <Button
@@ -56,9 +56,34 @@
                 android:layout_marginTop="17dp"
                 android:layout_marginEnd="65dp"
                 android:layout_marginRight="65dp"
-                android:textColor="#FFFFFF"
-                android:text="Checkout" />
+                android:text="Checkout"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:layout_width="318dp"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginBottom="16dp" >
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:text="Delivery " />
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:text="Collection" />
+            </RadioGroup>
+
         </RelativeLayout>
+
     </androidx.cardview.widget.CardView>
 
     <ListView

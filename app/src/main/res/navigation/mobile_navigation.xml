@@ -29,4 +29,11 @@
         android:label="@string/menu_login"
         tools:layout="@layout/activity_login">
     </activity>
+
+    <activity
+        android:id="@+id/nav_order"
+        android:name="com.example.prototype_app_non_functional.ui.testActivity"
+        android:label="Your Orders"
+        tools:layout="@layout/activity_test">
+    </activity>
 </navigation>
